@@ -13,21 +13,22 @@ Total Rows: 271117
 Total Columns: 15
 Each row corresponds to an individual athlete competing in an Olympic event.
 Column	Description
-ID	Unique number for each athlete
-Name	Athlete's name
-Sex	M or F
-Age	Integer
-Height	In centimeters
-Weight	In kilograms
-Team	Team name
-NOC	National Olympic Committee 3-letter code
-Games	Year and season
-Year	Integer
-Season	Summer or Winter
-City	Host city
-Sport	Sport
-Event	Event
-Medal	Gold, Silver, Bronze, or NA
+
+ID	Unique number for each athlete,
+Name	Athlete's name,
+Sex	M or F,
+Age	Integer,
+Height	In centimeters,
+Weight	In kilograms,
+Team	Team name,
+NOC	National Olympic Committee 3-letter code,
+Games	Year and season,
+Year	Integer,
+Season	Summer or Winter,
+City	Host city,
+Sport	Sport,
+Event	Event,
+Medal	Gold, Silver, Bronze, or NA.
 
 noc_regions:
 
@@ -36,11 +37,12 @@ Total Rows: 231
 Total Columns: 3
 
 Column	Description
-NOC	National Olympic Committee 3-letter code
-Region	Region name
-Notes	Additional information about the region
+NOC	National Olympic Committee 3-letter code,
+Region	Region name,
+Notes	Additional information about the region.
+
 23 Questions Explored
-From the dataset, I explored the following 23 questions utilizing PostgreSQL:
+From the dataset, I explored the following 23 questions utilizing SQL:
 
 1: count the number of records in noc_regions table.
 2: count the number of records in athlete_event.
